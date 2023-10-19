@@ -77,7 +77,7 @@ body > section:last-child {
   font-weight: 600;
   line-height: 24px;
   cursor: pointer;
-  padding: 0 25px;
+  padding: 8px 24px;
 }
 .button-outline {
   background-color: #fff;
@@ -189,14 +189,14 @@ body > section:last-child {
   width: 55%;
 }
 .section-bg {
-  background-image: url("/Imagine/back-ground-grey.svg");
+  background-image: url('/Imagine/back-ground-grey.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   overflow: visible;
 }
 .section-bg-reverse {
-  background-image: url("./Imagine/Bg\ regverse.svg");
+  background-image: url('./Imagine/Bg\ regverse.svg');
 }
 .section-3-row > h3 {
   font-weight: 700;
@@ -207,7 +207,7 @@ body > section:last-child {
 }
 .section-row-4-cols {
   display: grid;
-  grid-template-areas: "grid-col-1 grid-col-2 grid-col-3 grid-col-4";
+  grid-template-areas: 'grid-col-1 grid-col-2 grid-col-3 grid-col-4';
   gap: 10px;
 }
 .section-row-4-cols-item-1 {
@@ -275,11 +275,11 @@ body > section:last-child {
   overflow: visible;
 }
 .chat-box-left {
-  background-image: url("./Imagine/cah11.svg");
+  background-image: url('./Imagine/cah11.svg');
   margin-left: 16px;
 }
 .chat-box-right {
-  background-image: url("/Imagine/cahtbotx\ 1.svg");
+  background-image: url('/Imagine/cahtbotx\ 1.svg');
   margin-right: 16px;
 }
 .chat-box-wrapper-right {
@@ -361,8 +361,8 @@ body > section:last-child {
   .section-row-4-cols {
     display: grid;
     grid-template-areas:
-      "grid-col-1 grid-col-2"
-      "grid-col-3 grid-col-4";
+      'grid-col-1 grid-col-2'
+      'grid-col-3 grid-col-4';
     gap: 30;
   }
   .section-row-4-cols > div {
@@ -394,10 +394,10 @@ body > section:last-child {
   .section-row-4-cols {
     display: grid;
     grid-template-areas:
-      "grid-col-1"
-      "grid-col-2"
-      "grid-col-3"
-      "grid-col-4";
+      'grid-col-1'
+      'grid-col-2'
+      'grid-col-3'
+      'grid-col-4';
     gap: 0;
     margin: 0;
   }
